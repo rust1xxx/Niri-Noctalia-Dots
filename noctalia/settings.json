@@ -385,7 +385,7 @@
         "enableLockScreenCountdown": true,
         "enableLockScreenMediaControls": false,
         "enableShadows": true,
-        "forceBlackScreenCorners": false,
+        "forceBlackScreenCorners": true,
         "iRadiusRatio": 1,
         "keybinds": {
             "keyDown": [
@@ -411,7 +411,7 @@
                 "Up"
             ]
         },
-        "language": "",
+        "language": "ru",
         "lockOnSuspend": true,
         "lockScreenAnimations": true,
         "lockScreenBlur": 0.4,
@@ -420,7 +420,7 @@
         ],
         "lockScreenTint": 0.2,
         "passwordChars": false,
-        "radiusRatio": 0.75,
+        "radiusRatio": 0.8300000000000001,
         "reverseScroll": false,
         "scaleRatio": 0.9,
         "screenRadiusRatio": 1,
@@ -429,7 +429,7 @@
         "shadowOffsetY": 3,
         "showChangelogOnStartup": true,
         "showHibernateOnLockScreen": false,
-        "showScreenCorners": false,
+        "showScreenCorners": true,
         "showSessionButtonsOnLockScreen": true,
         "smoothScrollEnabled": true,
         "telemetryEnabled": false
@@ -708,8 +708,8 @@
         "fontDefaultScale": 1,
         "fontFixed": "monospace",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 0.5,
-        "panelsAttachedToBar": true,
+        "panelBackgroundOpacity": 0.25,
+        "panelsAttachedToBar": false,
         "scrollbarAlwaysVisible": true,
         "settingsPanelMode": "window",
         "settingsPanelSideBarCardStyle": true,
@@ -1008,9 +1008,9 @@
                 "darkMode": true,
                 "generationMethod": "content",
                 "paletteColors": [
-                    "#e9b3ff",
-                    "#e9b3ff",
-                    "#ffb0cc",
+                    "#fdb4a7",
+                    "#fdb4a8",
+                    "#fcb955",
                     "#ffb4ab"
                 ],
                 "path": "/home/rust1x/Pictures/Wallpapers/Johan.jpg",
