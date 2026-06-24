@@ -22,7 +22,10 @@
             "org.kde.dolphin",
             "chromium-browser",
             "kitty",
-            "com.obsproject.Studio"
+            "com.obsproject.Studio",
+            "org.gnome.Evince",
+            "obsidian",
+            "ch.tlaun.TL"
         ],
         "position": "top_center",
         "screenshotAnnotationTool": "",
@@ -41,17 +44,17 @@
         "visualizerType": "wave",
         "volumeFeedback": false,
         "volumeFeedbackSoundFile": "",
-        "volumeOverdrive": false,
+        "volumeOverdrive": true,
         "volumeStep": 5
     },
     "bar": {
         "autoHideDelay": 500,
         "autoShowDelay": 150,
         "backgroundOpacity": 0.9500000000000001,
-        "barType": "simple",
+        "barType": "floating",
         "capsuleColorKey": "primary",
-        "capsuleOpacity": 0.15,
-        "contentPadding": 6,
+        "capsuleOpacity": 0.16,
+        "contentPadding": 2,
         "density": "comfortable",
         "displayMode": "always_visible",
         "enableExclusionZoneInset": true,
@@ -59,7 +62,7 @@
         "frameRadius": 12,
         "frameThickness": 8,
         "hideOnOverview": false,
-        "marginHorizontal": 4,
+        "marginHorizontal": 12,
         "marginVertical": 4,
         "middleClickAction": "none",
         "middleClickCommand": "",
@@ -68,7 +71,7 @@
         ],
         "mouseWheelAction": "none",
         "mouseWheelWrap": true,
-        "outerCorners": true,
+        "outerCorners": false,
         "position": "top",
         "reverseScroll": false,
         "rightClickAction": "controlCenter",
@@ -78,9 +81,9 @@
         ],
         "showCapsule": true,
         "showOnWorkspaceSwitch": true,
-        "showOutline": true,
+        "showOutline": false,
         "useSeparateOpacity": false,
-        "widgetSpacing": 9,
+        "widgetSpacing": 6,
         "widgets": {
             "center": [
                 {
@@ -96,7 +99,7 @@
                     "iconScale": 0.8,
                     "id": "Workspace",
                     "labelMode": "index",
-                    "occupiedColor": "secondary",
+                    "occupiedColor": "primary",
                     "pillSize": 0.6,
                     "showApplications": false,
                     "showApplicationsHover": false,
@@ -214,10 +217,10 @@
                     "colorizeSystemIcon": "none",
                     "colorizeSystemText": "none",
                     "customIconPath": "",
-                    "enableColorization": false,
-                    "icon": "noctalia",
+                    "enableColorization": true,
+                    "icon": "settings",
                     "id": "ControlCenter",
-                    "useDistroLogo": false
+                    "useDistroLogo": true
                 },
                 {
                     "iconColor": "error",
@@ -251,7 +254,7 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "tonal-spot",
+        "generationMethod": "content",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "HDMI-A-1",
@@ -372,11 +375,11 @@
         "animationDisabled": false,
         "animationSpeed": 1,
         "autoStartAuth": false,
-        "avatarImage": "/home/rust1x/.face",
+        "avatarImage": "",
         "boxRadiusRatio": 1,
         "clockFormat": "hh\\nmm",
-        "clockStyle": "custom",
-        "compactLockScreen": false,
+        "clockStyle": "digital",
+        "compactLockScreen": true,
         "dimmerOpacity": 0,
         "enableBlurBehind": true,
         "enableLockScreenCountdown": true,
@@ -410,7 +413,7 @@
         },
         "language": "ru",
         "lockOnSuspend": true,
-        "lockScreenAnimations": false,
+        "lockScreenAnimations": true,
         "lockScreenBlur": 0.4,
         "lockScreenCountdownDuration": 10000,
         "lockScreenMonitors": [
@@ -463,7 +466,7 @@
         "firstDayOfWeek": 1,
         "hideWeatherCityName": false,
         "hideWeatherTimezone": false,
-        "name": "Москва, RU",
+        "name": "",
         "showCalendarEvents": true,
         "showCalendarWeather": true,
         "showWeekNumberInCalendar": false,
@@ -486,7 +489,7 @@
     "nightLight": {
         "autoSchedule": true,
         "dayTemp": "6500",
-        "enabled": false,
+        "enabled": true,
         "forced": false,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
@@ -499,7 +502,7 @@
     "notifications": {
         "backgroundOpacity": 1,
         "clearDismissed": true,
-        "criticalUrgencyDuration": 2,
+        "criticalUrgencyDuration": 1,
         "density": "default",
         "enableBatteryToast": true,
         "enableKeyboardLayoutToast": false,
@@ -507,10 +510,10 @@
         "enableMediaToast": false,
         "enabled": true,
         "location": "top_right",
-        "lowUrgencyDuration": 2,
+        "lowUrgencyDuration": 1,
         "monitors": [
         ],
-        "normalUrgencyDuration": 2,
+        "normalUrgencyDuration": 1,
         "overlayLayer": true,
         "respectExpireTimeout": false,
         "saveToHistory": {
@@ -642,14 +645,6 @@
         "activeTemplates": [
             {
                 "enabled": true,
-                "id": "niri"
-            },
-            {
-                "enabled": true,
-                "id": "kitty"
-            },
-            {
-                "enabled": true,
                 "id": "gtk"
             },
             {
@@ -675,6 +670,34 @@
             {
                 "enabled": true,
                 "id": "steam"
+            },
+            {
+                "enabled": true,
+                "id": "niri"
+            },
+            {
+                "enabled": true,
+                "id": "kitty"
+            },
+            {
+                "enabled": true,
+                "id": "ghostty"
+            },
+            {
+                "enabled": true,
+                "id": "discord"
+            },
+            {
+                "enabled": true,
+                "id": "alacritty"
+            },
+            {
+                "enabled": true,
+                "id": "code"
+            },
+            {
+                "enabled": true,
+                "id": "yazi"
             }
         ],
         "enableUserTheming": false
@@ -789,9 +812,9 @@
                 "darkMode": true,
                 "generationMethod": "content",
                 "paletteColors": [
-                    "#c2c496",
-                    "#c2c6b0",
-                    "#b5cca6",
+                    "#f9ba7a",
+                    "#e2c0a2",
+                    "#c4cc80",
                     "#ffb4ab"
                 ],
                 "path": "/home/rust1x/Pictures/Wallpapers/pau-casals-IMUxcdflKoc-unsplash.jpg",
@@ -894,11 +917,291 @@
                 ],
                 "path": "/home/rust1x/Pictures/Wallpapers/aditya-anjagi-KZSDCocsOEE-unsplash.jpg",
                 "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#f65c55",
+                    "#f5a03d",
+                    "#eef53d",
+                    "#f31f16"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Berserk.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "monochrome",
+                "paletteColors": [
+                    "#ffffff",
+                    "#c6c6c6",
+                    "#e2e2e2",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Pale.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "monochrome",
+                "paletteColors": [
+                    "#ffffff",
+                    "#c6c6c6",
+                    "#e2e2e2",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Guts_Moon.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "monochrome",
+                "paletteColors": [
+                    "#ffffff",
+                    "#c6c6c6",
+                    "#e2e2e2",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Walter.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "monochrome",
+                "paletteColors": [
+                    "#ffffff",
+                    "#c6c6c6",
+                    "#e2e2e2",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Pale_King.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#e48167",
+                    "#d6b25c",
+                    "#b7cc66",
+                    "#c66c55"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Griffith.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "content",
+                "paletteColors": [
+                    "#e9b3ff",
+                    "#e9b3ff",
+                    "#ffb0cc",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Johan.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "content",
+                "paletteColors": [
+                    "#e1bec0",
+                    "#d5c2c3",
+                    "#d9c3a7",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/anakin_wallpaper.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "content",
+                "paletteColors": [
+                    "#ffb3a9",
+                    "#ffb3a9",
+                    "#ffb85d",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Butcher.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "monochrome",
+                "paletteColors": [
+                    "#ffffff",
+                    "#c6c6c6",
+                    "#e2e2e2",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/PureVessel.webp",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "content",
+                "paletteColors": [
+                    "#ffb3b1",
+                    "#ffb3b1",
+                    "#ffb77f",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Hotline.jpeg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "content",
+                "paletteColors": [
+                    "#ffb4a4",
+                    "#ffb4a4",
+                    "#ffb94e",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Rollover.gif",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#67e4e4",
+                    "#b3ecc6",
+                    "#6666cc",
+                    "#fd4663"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/DarthVader.jpeg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "content",
+                "paletteColors": [
+                    "#e8b3fe",
+                    "#e8b3fe",
+                    "#feb0cc",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Miami purple.jpeg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "content",
+                "paletteColors": [
+                    "#ffffff",
+                    "#c6c6c6",
+                    "#e2e2e2",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Dio.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "monochrome",
+                "paletteColors": [
+                    "#ffffff",
+                    "#c6c6c6",
+                    "#e2e2e2",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Dio2.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "fruit-salad",
+                "paletteColors": [
+                    "#ffaedf",
+                    "#f9b1db",
+                    "#ffb59f",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/Jornoo.png",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "tonal-spot",
+                "paletteColors": [
+                    "#dac84e",
+                    "#cfc7a2",
+                    "#a7d0b6",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/wallhaven_dp867o.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "rainbow",
+                "paletteColors": [
+                    "#ffb599",
+                    "#e7beaf",
+                    "#d4c78e",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/wallhaven_ox2z3m.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Catppuccin",
+                "darkMode": true,
+                "generationMethod": "content",
+                "paletteColors": [
+                    "#ffa9fa",
+                    "#e9b7e3",
+                    "#ffb2bb",
+                    "#ffb4ab"
+                ],
+                "path": "/home/rust1x/Pictures/Wallpapers/LosAngeles.jpg",
+                "useWallpaperColors": true
             }
         ],
         "fillColor": "#000000",
         "fillMode": "crop",
-        "hideWallpaperFilenames": true,
+        "hideWallpaperFilenames": false,
         "linkLightAndDarkWallpapers": true,
         "monitorDirectories": [
         ],
@@ -908,14 +1211,14 @@
         "panelPosition": "center",
         "randomIntervalSec": 300,
         "setWallpaperOnAllMonitors": true,
-        "showHiddenFiles": false,
+        "showHiddenFiles": true,
         "skipStartupTransition": false,
-        "solidColor": "#ffffff",
-        "sortOrder": "random",
+        "solidColor": "#ff98b0",
+        "sortOrder": "date_asc",
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
         "transitionType": [
-            "fade"
+            "honeycomb"
         ],
         "useOriginalImages": false,
         "useSolidColor": false,
@@ -925,7 +1228,7 @@
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
         "wallhavenPurity": "100",
-        "wallhavenQuery": "",
+        "wallhavenQuery": "Golang",
         "wallhavenRatios": "",
         "wallhavenResolutionHeight": "",
         "wallhavenResolutionMode": "atleast",
