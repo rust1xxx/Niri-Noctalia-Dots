@@ -1106,9 +1106,9 @@
                 "darkMode": true,
                 "generationMethod": "content",
                 "paletteColors": [
-                    "#e8b3fe",
-                    "#e8b3fe",
-                    "#feb0cc",
+                    "#e9b3ff",
+                    "#e9b3ff",
+                    "#ffb0cc",
                     "#ffb4ab"
                 ],
                 "path": "/home/rust1x/Pictures/Wallpapers/Miami purple.jpeg",
