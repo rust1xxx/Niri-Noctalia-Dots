@@ -9,3 +9,5 @@
 ![Preview 2](./NiriRice2.png)
 ![Preview 3](./NiriRice3.png)
 
+![Preview 4](./Desktop1.png)
+![Preview 5](./Desktop2.png)
