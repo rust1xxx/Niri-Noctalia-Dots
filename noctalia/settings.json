@@ -27,7 +27,7 @@
             "obsidian",
             "ch.tlaun.TL"
         ],
-        "position": "top_center",
+        "position": "center",
         "screenshotAnnotationTool": "",
         "showCategories": true,
         "showIconBackground": false,
@@ -371,7 +371,7 @@
     },
     "general": {
         "allowPanelsOnScreenWithoutBar": true,
-        "allowPasswordWithFprintd": false,
+        "allowPasswordWithFprintd": true,
         "animationDisabled": false,
         "animationSpeed": 1,
         "autoStartAuth": false,
@@ -411,11 +411,11 @@
                 "Up"
             ]
         },
-        "language": "ru",
+        "language": "",
         "lockOnSuspend": true,
         "lockScreenAnimations": true,
         "lockScreenBlur": 0.4,
-        "lockScreenCountdownDuration": 10000,
+        "lockScreenCountdownDuration": 16000,
         "lockScreenMonitors": [
         ],
         "lockScreenTint": 0.2,
@@ -428,7 +428,7 @@
         "shadowOffsetX": 2,
         "shadowOffsetY": 3,
         "showChangelogOnStartup": true,
-        "showHibernateOnLockScreen": false,
+        "showHibernateOnLockScreen": true,
         "showScreenCorners": true,
         "showSessionButtonsOnLockScreen": true,
         "smoothScrollEnabled": true,
@@ -551,7 +551,7 @@
         "notifyUpdates": true
     },
     "sessionMenu": {
-        "countdownDuration": 10000,
+        "countdownDuration": 16000,
         "enableCountdown": true,
         "largeButtonsLayout": "single-row",
         "largeButtonsStyle": false,
@@ -614,7 +614,7 @@
                 "keybind": ""
             }
         ],
-        "showHeader": true,
+        "showHeader": false,
         "showKeybinds": true
     },
     "settingsVersion": 59,
@@ -708,7 +708,7 @@
         "fontDefaultScale": 1,
         "fontFixed": "monospace",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 0.25,
+        "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": false,
         "scrollbarAlwaysVisible": true,
         "settingsPanelMode": "window",
@@ -742,9 +742,9 @@
                 "darkMode": true,
                 "generationMethod": "content",
                 "paletteColors": [
-                    "#a9c7fe",
-                    "#bcc7df",
-                    "#e7b6ef",
+                    "#b1ccfe",
+                    "#bdc6dc",
+                    "#e6baed",
                     "#ffb4ab"
                 ],
                 "path": "/home/rust1x/Pictures/Wallpapers/adelin-preda--tOr_T4qTpQ-unsplash.jpg",
@@ -826,9 +826,9 @@
                 "darkMode": true,
                 "generationMethod": "monochrome",
                 "paletteColors": [
-                    "#ffffff",
-                    "#c6c6c6",
-                    "#e2e2e2",
+                    "#a0d57a",
+                    "#bdcbaf",
+                    "#a0cfce",
                     "#ffb4ab"
                 ],
                 "path": "/home/rust1x/Pictures/Wallpapers/elvis-bekmanis-g9qwoPiS0nY-unsplash.jpg",
@@ -992,12 +992,12 @@
                 "appearance": "dark",
                 "colorScheme": "Catppuccin",
                 "darkMode": true,
-                "generationMethod": "vibrant",
+                "generationMethod": "rainbow",
                 "paletteColors": [
-                    "#e48167",
-                    "#d6b25c",
-                    "#b7cc66",
-                    "#c66c55"
+                    "#ffb3b2",
+                    "#e6bdbc",
+                    "#e5c18d",
+                    "#ffb4ab"
                 ],
                 "path": "/home/rust1x/Pictures/Wallpapers/Griffith.jpg",
                 "useWallpaperColors": true
@@ -1190,12 +1190,12 @@
                 "darkMode": true,
                 "generationMethod": "content",
                 "paletteColors": [
-                    "#ffa9fa",
-                    "#e9b7e3",
-                    "#ffb2bb",
+                    "#dec1ab",
+                    "#d3c4b9",
+                    "#c9c8ab",
                     "#ffb4ab"
                 ],
-                "path": "/home/rust1x/Pictures/Wallpapers/LosAngeles.jpg",
+                "path": "/home/rust1x/Pictures/Wallpapers/wallhaven_wqwxwq.jpg",
                 "useWallpaperColors": true
             }
         ],
@@ -1228,7 +1228,7 @@
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
         "wallhavenPurity": "100",
-        "wallhavenQuery": "Golang",
+        "wallhavenQuery": "",
         "wallhavenRatios": "",
         "wallhavenResolutionHeight": "",
         "wallhavenResolutionMode": "atleast",
