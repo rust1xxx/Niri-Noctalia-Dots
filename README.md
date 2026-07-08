@@ -2,7 +2,7 @@
 
 ## What you need (Dependencies)
 * **niri** (WM)
-* **noctalia-shell** (Shell/Bar)
+* **noctalia-shell V4** (Shell/Bar)
 * **kitty** (Terminal)
 
 ![Preview 1](./NiriRice.png)
